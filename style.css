@@ -1,0 +1,595 @@
+
+@font-face {
+    font-family: 'titilliumregular';
+    src: url('titillium-regular-webfont.eot');
+    src: url('titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-regular-webfont.woff2') format('woff2'),
+         url('titillium-regular-webfont.woff') format('woff'),
+         url('titillium-regular-webfont.svg#titilliumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titilliumbold';
+    src: url('titillium-semibold-webfont.eot');
+    src: url('titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-semibold-webfont.woff2') format('woff2'),
+         url('titillium-semibold-webfont.woff') format('woff'),
+         url('titillium-semibold-webfont.svg#titilliumbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titilliumlight';
+    src: url('titillium-light-webfont.eot');
+    src: url('titillium-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-light-webfont.woff2') format('woff2'),
+         url('titillium-light-webfont.woff') format('woff'),
+         url('titillium-light-webfont.svg#titilliumlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+font-face {
+    font-family: 'titilliumitalic';
+    src: url('titillium-regularitalic-webfont.eot');
+    src: url('titillium-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-regularitalic-webfont.woff2') format('woff2'),
+         url('titillium-regularitalic-webfont.woff') format('woff'),
+         url('titillium-regularitalic-webfont.svg#titilliumitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+    @font-face {
+        font-family: 'titillium_bdbold';
+        src: url('titillium-bold-webfont.eot');
+        src: url('titillium-bold-webfont.eot?#iefix') format('embedded-opentype'),
+             url('titillium-bold-webfont.woff2') format('woff2'),
+             url('titillium-bold-webfont.woff') format('woff'),
+             url('titillium-bold-webfont.svg#titillium_bdbold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    @font-face {
+        font-family: 'titillium_bdbold_italic';
+        src: url('titillium-bolditalic-webfont.eot');
+        src: url('titillium-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+             url('titillium-bolditalic-webfont.woff2') format('woff2'),
+             url('titillium-bolditalic-webfont.woff') format('woff'),
+             url('titillium-bolditalic-webfont.svg#titillium_bdbold_italic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    background: white;
+    width: 100%;
+}
+
+
+nav .nav-link{
+    font-size: 14px;
+    color: #303136 !important;
+    text-transform: uppercase;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+   
+}
+.nav-button{
+    text-transform: uppercase;
+    background: linear-gradient(to left, #329965, #0078ae);
+    border-radius: 20px;
+    width: 110px;
+   padding: 6px;
+    font-size: 14px;
+    border: none;  
+}
+
+
+ 
+.nav-link:active{
+    border-bottom: 2px solid #067aaf;
+    border-width: 50%;
+}
+.about-head{
+    background-image: url(assets/images/home-bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+ display: flex;
+ justify-content: space-between;
+  flex-direction: column;
+ 
+
+}
+header{
+    padding: 0px !important;
+    
+}
+.about-head  h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-family: 'titillium_bdbold';
+}
+.home-heading{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+   
+}
+/* Quote Area */
+
+
+.quotes-area .card{
+    border: none;
+    background:#f4f2e9 ;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 240px;
+
+}
+.quotes-area{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.home-main-content{
+    padding-top: 50px;
+}
+
+.quotes-area .card-title{
+    font-size: 32px;
+    color:#313237 ;
+}
+.quotes-area .card-img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+}
+.quotes-area  .card-body{
+    padding-left: 20px;
+}
+.quotes-area  .blockquote{
+    margin: 0px;
+    padding-left: 32px;
+    position: absolute;
+    left: 0px;
+    padding-right: 20px;
+}
+.blockquote-footer{
+    font-size: 24px;
+    color: #6f6f6f;
+    text-transform: capitalize;
+    margin: 0px;
+    font-family: 'titilliumregular';
+}
+.blockquote p{
+    color:#313237 ;
+    font-size: 24px;
+    margin: 0px;
+    padding-bottom: 0px;
+    line-height: 1.4;
+    font-family: 'titilliumitalic';
+}
+.card-sections .card-div-1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 40px 20px;
+}
+.card-sections  .card-text{
+    font-size: 18px;
+}
+.card-sections  .card-body{
+    padding: 0px;
+}
+.card-sections  .card-title{
+    font-size: 30px;
+}
+.card-sections .card-subtitle{
+    font-size: 14px;
+    color: white !important;
+
+}
+.card-div-button{
+    background: white;
+    border-radius: 20px;
+    width: 55%;
+    color: #0078ae!important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'titilliumbold';
+}
+.card-sections{
+    padding: 0px;
+    padding-bottom: 50px;
+}
+.card-img1{
+    background-image: url(assets/images/home-card-1.png);
+
+}
+.card-img2{
+    background-image: url(assets/images/home-card-2.png);
+}
+.card-img3{
+    background-image: url(assets/images/home-card-3.png);
+}
+.books-review-heading{
+    padding: 0px; 
+
+}
+.books-review-heading h2{
+    font-size: 38px;
+    color:#313237 ;
+    font-family: 'titillium_bdbold';
+
+}
+.books-review-slider .carousel-inner{
+    width: 80%;
+}
+.books-slider{
+    display: flex;
+    justify-content: center;
+}
+.books-slider .date{
+    background:#ffd100;
+    color: #313237;
+    font-size: 22px;
+    font-family: 'titillium_bdbold';
+    text-align: center;
+    padding: 8px;
+    width: 60%;
+
+}
+.books-slider .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#f4f2e9;
+    border: 2px solid #ffd100;
+}
+.slider-img{
+    height: 280px;
+    width: 180px;
+    padding-top: 20px;
+}
+.slider-img img{
+    width: 100%;
+    height: 100%;
+}
+.books-slider .card-body{
+    text-align: center;
+}
+.books-slider .book-title{
+    font-size:30px;
+    color:#313237;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'titillium_bdbold_italic';
+    padding-bottom: 5px;
+}
+.books-slider .book-dec{
+    font-size:22px ;
+    color: #313237!important;
+    font-family: 'titilliumbold';
+    padding-bottom: 7px;
+}
+.books-slider .book-content{
+    color: #313237 !important;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 20px;
+    font-family: 'titilliumregular'; 
+}
+.books-slider  .card-footer{
+    width: 100%;
+    background-image: linear-gradient(to left, #49a943, #0078ae );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.books-slider .footer-text{
+    color: #fefefe;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 2;
+    margin-bottom: 0px; 
+    font-family: 'titilliumbold'; 
+}
+.footer-img{
+    height: 27px;
+    width: 27px;
+}
+.next, .pre{
+    background-image: none !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f2e9;
+}
+.next i, .pre  i{
+    font-size: 30px;
+    color: #c3c2ba !important;
+
+}
+.next:hover i, .pre:hover i{
+    color: #399e5d !important;
+}
+.books-review-slider{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.learning-slider{
+    display: flex;
+    justify-content: center;
+
+}
+.learners-section .carousel-inner{
+    width: 87%;
+    
+}
+.slide-1 .card, .slide-2 .card{
+    background: #f9f8f4;
+    /* border: none; */
+
+}
+.comma-img{
+    float: left;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.writer-img-div img{
+    height: 80px;
+    width: 80px;
+}
+.writer-title .title{
+    font-size: 18px;
+    text-transform: uppercase;
+  
+}
+.writer-dec{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #b1b1af;
+}
+.title  .title-name1{
+    color: #128493;
+}
+.title  .title-name2{
+    color: #379d5e;
+}
+.writer-img-div{
+    width: 100%;
+    display: flex;
+    padding-left:40px; 
+    align-items: center;
+}
+.writer-title {
+    padding-left: 20px;
+}
+.slide-1 .card-body{
+    padding-left:30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    
+}
+.writer-content{
+    
+    font-size: 16px;
+    color: black !important;
+    text-align: left;
+    
+}
+.card-main-content{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   /* padding-left: 20px; */
+}
+.buy-button{
+    text-transform: uppercase;
+    background: linear-gradient(to left, #329965, #0078ae);
+    border-radius: 20px;
+    width: 100px;
+   padding: 6px;
+    font-size: 14px;
+    border: none;  
+}
+.buy-button-sec{
+    text-align: right;
+}
+.rating-area {
+    text-align: left;
+    display: flex;
+    padding-left: 0px;
+    
+}
+.rating-area img{
+    height: 60px;
+    width: 50px;
+}
+.rating-text-box .grey-star{
+    color:#8e8e93 ;
+
+}
+.rating-text-box i{
+    font-size: 14px;
+}
+.rating-text-box  p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'titilliumbold';
+}
+.rating-text-box{
+    padding-left: 30px;
+}
+
+#next .carousel-control-next-icon{
+    background-image:url('assets/images/arrow.png') !important;
+    height: 30px;
+    opacity: 1 !important;
+    position: absolute;
+    right: 0px;
+   
+ }
+ #prev .carousel-control-prev-icon{
+    background-image:url('assets/images/arrow-2.png') !important;
+    height: 30px;
+    opacity: 1 !important;
+    position: absolute;
+    left: 0px;
+    
+ }
+ .learners-section{
+     padding-bottom: 50px;
+ }
+/* footer */
+footer{
+    padding: 0px !important;
+}
+
+/* footer bottom */
+.footer-button{
+    background: white;
+    border-radius: 20px;
+    padding: 10px 50px;
+    color: #0078ae!important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'titilliumbold';
+}
+.footer-bottom{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background:#f9f8f4;
+}
+.footer-bottom h2{
+    color: #767676;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'titilliumbold';
+   
+}
+.footer-grid-1  li, .footer-grid-2  li {
+    list-style: none;
+    padding: 0px;
+    padding-top: 2px;
+    font-family: 'titilliumbold';
+ 
+}
+.footer-grid-1  li a, .footer-grid-2 li a{
+    font-size: 16px;
+    color: #382110 !important;
+    text-decoration: none;
+    padding: 0px;
+    
+
+}
+.footer-grid-1  ul, .footer-grid-2 ul{
+    text-align: left;
+    padding-left: 0px;
+    
+}
+.footer-icon{
+    background: #a2a19f;
+    height: 38px;
+    width: 38px;
+    border-radius: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-right: 10px;
+  
+    
+
+}
+.footer-icon i{
+    color: white;
+    font-size: 20px;  
+}
+.footer-icon:hover {
+    cursor: pointer;
+
+}
+.connection-items{
+    display: flex;
+}
+.footer-grid-4 p{
+    color: #808080;
+    font-size: 16px;
+    margin: 0px;
+    text-align: right !important;
+    font-family: 'titilliumregular';
+}
+.footer-grid-3{
+    padding: 0px;
+    text-align: left;
+}
+.footer-grid-4{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+}
+.footer-grid-4 li{
+    list-style: none;
+}
+.footer-grid-4 li a{
+    color:#2c2c2c ;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 0px; 
+}
+.footer-grid-4 ul{
+    padding: 0px;
+    display: flex;
+    font-family: 'titilliumregular';
+
+}
+.footer-grid-4 li:nth-child(2){
+    border-left: 1px solid #cfcfce;
+    padding: 0px 7px;
+   
+  }
+  .footer-grid-4 li:nth-child(1){
+    padding: 0px 7px;
+
+  }
+  .footer-grid-4 li:nth-child(3){
+      padding-left: 7px;
+      border-left: 1px solid #cfcfce;
+
+  }
+
